@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+
+html{
+    font-size: 12px;
+}
+
+body{
+    /* background-image: url(amador-loureiro-BVyNlchWqzs-unsplash.jpg);*/
+    font-size: 1.25rem;
+     background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    padding: 1em;
+}
+main{
+   display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+div {
+    padding:30px;
+	border: 15px solid #341f97;
+	width: 1000px;
+	float: right;
+   background-color:#10ac84;
+  
+}
+
+header{
+    background-color:rgba(246, 185, 59,1.0);
+    border: 5px solid black;
+    text-align: center;
+    color: black;
+    font-size:  1.25rem; 
+    
+      }
+
+.first {
+   background-color: rgba(34, 47, 62,1.0);;
+   border: 5px solid black;
+   margin-top: 20px;
+   padding-left: 5px;
+}
+
+footer {
+    font-size: 30px;
+	color: rgba(235, 47, 6,1.0);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+blockquote {
+    color: rgba(235, 47, 6,1.0);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgba(234, 181, 67,1.0);
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+}
+
+.second {
+   border: 5px solid black;
+   margin-top: 20px;
+   padding-left: 5px;
+   background-color: rgba(34, 47, 62,1.0);
+}
+
+
